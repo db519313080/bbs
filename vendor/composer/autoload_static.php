@@ -58,6 +58,7 @@ class ComposerStaticInitc212890d5bb997c713a5c310fa6a21de
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Summerblue\\Generator\\' => 21,
         ),
         'R' => 
         array (
@@ -204,6 +205,10 @@ class ComposerStaticInitc212890d5bb997c713a5c310fa6a21de
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Summerblue\\Generator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/summerblue/generator/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -3468,6 +3473,28 @@ class ComposerStaticInitc212890d5bb997c713a5c310fa6a21de
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
+        'Summerblue\\Generator\\Commands\\ScaffoldMakeCommand' => __DIR__ . '/..' . '/summerblue/generator/src/Commands/ScaffoldMakeCommand.php',
+        'Summerblue\\Generator\\GeneratorException' => __DIR__ . '/..' . '/summerblue/generator/src/GeneratorException.php',
+        'Summerblue\\Generator\\GeneratorsServiceProvider' => __DIR__ . '/..' . '/summerblue/generator/src/GeneratorsServiceProvider.php',
+        'Summerblue\\Generator\\Localizations\\SchemaParser' => __DIR__ . '/..' . '/summerblue/generator/src/Localizations/SchemaParser.php',
+        'Summerblue\\Generator\\Localizations\\SyntaxBuilder' => __DIR__ . '/..' . '/summerblue/generator/src/Localizations/SyntaxBuilder.php',
+        'Summerblue\\Generator\\Makes\\MakeController' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeController.php',
+        'Summerblue\\Generator\\Makes\\MakeFormRequest' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeFormRequest.php',
+        'Summerblue\\Generator\\Makes\\MakeLayout' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeLayout.php',
+        'Summerblue\\Generator\\Makes\\MakeLocalization' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeLocalization.php',
+        'Summerblue\\Generator\\Makes\\MakeMigration' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeMigration.php',
+        'Summerblue\\Generator\\Makes\\MakeModel' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeModel.php',
+        'Summerblue\\Generator\\Makes\\MakeModelObserver' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeModelObserver.php',
+        'Summerblue\\Generator\\Makes\\MakePolicy' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakePolicy.php',
+        'Summerblue\\Generator\\Makes\\MakeRoute' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeRoute.php',
+        'Summerblue\\Generator\\Makes\\MakeSeed' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeSeed.php',
+        'Summerblue\\Generator\\Makes\\MakeView' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakeView.php',
+        'Summerblue\\Generator\\Makes\\MakerTrait' => __DIR__ . '/..' . '/summerblue/generator/src/Makes/MakerTrait.php',
+        'Summerblue\\Generator\\Migrations\\NameParser' => __DIR__ . '/..' . '/summerblue/generator/src/Migrations/NameParser.php',
+        'Summerblue\\Generator\\Migrations\\SchemaParser' => __DIR__ . '/..' . '/summerblue/generator/src/Migrations/SchemaParser.php',
+        'Summerblue\\Generator\\Migrations\\SyntaxBuilder' => __DIR__ . '/..' . '/summerblue/generator/src/Migrations/SyntaxBuilder.php',
+        'Summerblue\\Generator\\Validators\\SchemaParser' => __DIR__ . '/..' . '/summerblue/generator/src/Validators/SchemaParser.php',
+        'Summerblue\\Generator\\Validators\\SyntaxBuilder' => __DIR__ . '/..' . '/summerblue/generator/src/Validators/SyntaxBuilder.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',
